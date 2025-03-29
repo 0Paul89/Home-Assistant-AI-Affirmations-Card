@@ -1,0 +1,11 @@
+// IF USING OLLAMA
+
+- type: custom:daily-affirmation-card
+  apiType: ollama
+
+
+// IF USING OPENAI OR DEEPSEEK
+
+- type: custom:daily-affirmation-card
+  apiType: ollama
+  apiToken: <your_api_token>
