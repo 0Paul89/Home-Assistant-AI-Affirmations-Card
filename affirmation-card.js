@@ -172,7 +172,7 @@ class DailyAffirmationCard extends HTMLElement {
   }
 
   async fetchOllama(prompt) {
-    const response = await fetch("http://192.168.50.66:11434/api/generate", {
+    const response = await fetch("http://<IP:PORT>/api/generate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
